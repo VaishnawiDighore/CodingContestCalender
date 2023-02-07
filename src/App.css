@@ -1,0 +1,55 @@
+body{
+  margin: 0px;
+  padding: 0px;
+   /* background-color: aquamarine;  */
+   background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+}
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.card{
+  padding: 1em;
+  /* display:flex; */
+  border: 2px solid rgb(238, 96, 25);
+  background: linear-gradient(to bottom right, #bff486, #1cda6e);
+}
+.card:hover{
+  font-size: larger;
+  background: #33e4d8;
+}
+p {
+  line-height: 2 ;
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  font-size: 15px;
+}
+.para{
+  display: flex;
+  flex-wrap: wrap;
+}
+a{
+  padding-right: 15px;
+}
+a:hover{
+  font-size: larger;
+}
+
+h1{
+  margin: 15px;
+  font-weight:bolder ;
+  text-align: center;
+  background: #FFB76B;
+  background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
+}
